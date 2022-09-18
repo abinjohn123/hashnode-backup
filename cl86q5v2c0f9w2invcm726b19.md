@@ -33,7 +33,7 @@ Having a good grasp of CSS selectors can help in reducing unnecessary classes in
     <div class="sample-div">... </div>
     
     //CSS
-    .sample-div{
+    .sample-div {
       color: red;
     }
     ```
@@ -46,7 +46,8 @@ Having a good grasp of CSS selectors can help in reducing unnecessary classes in
     <div id="hashonde-like-button">... </div>
     
     //CSS
-    #hashonde-like-button{
+
+    #hashonde-like-button {
       color: blue;
     }
   ```
@@ -55,14 +56,14 @@ Having a good grasp of CSS selectors can help in reducing unnecessary classes in
   
   ```
   // selecting all elements with a custom attribute of id-type = "student"
-  [data-id-type="student"]{
+  [data-id-type="student"] {
     background-color: green;
   }
 
   // selecting all elements having a custom attribute of id-type
   // regardless of the value
   
-  [data-id-type]{
+  [data-id-type] {
     background-color: yellow;
   }
   ```
@@ -76,7 +77,7 @@ Instead of adding classes over classes to get the desired styling effect, using 
 
   Here's how to select an element that is a div *and* has a class of `bg-green` *and* an id of `id1`
   ```
-  div.bg-green#id1{
+  div.bg-green#id1 {
     font-size: 2rem;
   }
   ```
@@ -85,8 +86,8 @@ Instead of adding classes over classes to get the desired styling effect, using 
 
   Here's how to select all the `span` elements and `p` elements having a `text-bold` class
   ```
-  span, p.text-bold{
-    bacground-color: violet;
+  span, p.text-bold {
+    background-color: violet;
   }
   ```
 
@@ -111,7 +112,7 @@ Selecting all the p tags inside elements having a class of `container` looks lik
 
   // CSS
   // selecting all the li items
-  .list-container > li{
+  .list-container > li {
     color: purple;
   }
 ```
@@ -139,16 +140,16 @@ Selecting all the p tags inside elements having a class of `container` looks lik
 
   Here's a descendent selector
   ```
-  .parent-list-container li{
+  .parent-list-container li {
     color: blue
   }
   ```
 
   and here's a child selector
   ```
-  .parent-list-container > li{
+  .parent-list-container > li {
     background-color: skyblue;
-    }
+   }
   ```
 
   Here's how the output looks:
@@ -189,7 +190,7 @@ Selecting all the p tags inside elements having a class of `container` looks lik
   // CSS
   // adjacent sibling
   .first-child + p{
-  background-color: aquamarine;
+   background-color: aquamarine;
   }
 
   // general sibling
