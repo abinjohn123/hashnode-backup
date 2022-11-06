@@ -28,7 +28,7 @@ I registered for the event and joined the official discord server - another part
 
 Since I'd gotten familiar by now with the open-source workflow, and so I decided that I wouldn't make a contribution just for the sake of it. I wanted to make "actual" contributions for hacktoberfest. So I spent hours going through the projects posted on the discord server, trying out the ones that interested me and finding contribution opportunities that would benefit the projects.
 
-### My Hacktoberfest Contributions
+## My Hacktoberfest Contributions
 
 I made a total of six contributions, out of which four were accepted. One project that I contributed to wasn't participating in hacktoberfest, and one pull request didn't get merged to main, making it invalid. 
 
