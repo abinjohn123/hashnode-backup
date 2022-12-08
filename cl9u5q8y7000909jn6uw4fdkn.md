@@ -1,4 +1,4 @@
-# Internationalization API in JavaScript
+# Date & Number Formatting Has Never Been Easier
 
 ## Introduction
 
