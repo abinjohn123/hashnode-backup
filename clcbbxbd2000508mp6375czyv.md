@@ -113,7 +113,7 @@ In the code snippet below, when the line `const b = a + 5` is encountered, JavaS
 
 > Scope chain only moves upwards i.e. an inner block can access the scope of the outer block, but not vice-versa. That's why line 7 in the above snippet throws an error. `b` is out of scope for the outer scope.
 
-## Scope Priority
+### Scope Priority
 
 Consider the snippet below. The variable `firstName` is declared both as a global variable and inside the `whatIsMyName` function, while `lastName` is only a global variable.
 
