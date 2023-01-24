@@ -1,4 +1,4 @@
-# Why Are Objects Mutable In JavaScript?
+# Object Mutability in JavaScript
 
 JavaScript is a funny language. If we declare a primitive variable with `const` and try mutating(modifying) it, we'll get an error. Well, that's expected behavior. However, if we declare an array or an object with `const` and try modifying one of its properties, it works without any problem.
 
