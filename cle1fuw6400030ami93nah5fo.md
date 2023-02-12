@@ -89,7 +89,7 @@ console.log(allNums) //    [[1, 3, 5], [2, 4, 6]]
     
     console.log(baseArray) //[1, 2, 3, 4, 100]
     console.log(sameReference) //[1, 2, 3, 4, 100]
-    console.log(shallowCopy) //[1, 2, 3, 4] ```
+    console.log(shallowCopy) //[1, 2, 3, 4]
     ```
     
     ---
