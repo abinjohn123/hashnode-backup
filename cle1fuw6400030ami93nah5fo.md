@@ -71,6 +71,7 @@ console.log(allNums) //    [[1, 3, 5], [2, 4, 6]]
     The spread syntax is a great way to create shallow copies of an iterable. Because of the way in which JavaScript handles different value types, simply assigning an array or object to a new value doesn't create a true copy \[More on this [here](https://abinjohn.in/object-mutability)\]. The spread syntax helps to spread the original array contents and put them in a new array.
     
     ```javascript
+    
     const baseArray = [1, 2, 3, 4];
     
     // Simply assigning baseArray to sameReference doesn't create a copy.
