@@ -48,6 +48,7 @@ Consider the snippet of code below that mimics the roll of a dice and displays a
 
 ```javascript
 function rollADiceES6() {
+  // generate a random number between 1 and 6
   const dice = Math.floor(Math.random() * 6 + 1)
   
   if(dice < 3){
@@ -64,6 +65,7 @@ The error here is that `message` is defined inside the if and else blocks and he
 
 ```javascript
 function rollADiceVar() {
+  // generate a random number between 1 and 6
   const dice = Math.floor(Math.random() * 6 + 1)
 
   if (dice < 3) {
