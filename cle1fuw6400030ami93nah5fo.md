@@ -21,7 +21,7 @@ const allNums = [oddNums[0], oddNums[1], oddNums[2], evenNums[0], evenNums[1], e
 
 Here's what we are actually doing -
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676191055892/fdd57262-1100-44d5-b770-76f87da3f5e1.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676191055892/fdd57262-1100-44d5-b770-76f87da3f5e1.png align="center")
 
 We are listing out each item of the array and separating them by commas. To create the `allNums` array, we do that for the `oddNums` array, add a comma, and then do the same for `evenNums` array.
 
@@ -91,8 +91,6 @@ console.log(allNums) //    [[1, 3, 5], [2, 4, 6]]
     console.log(shallowCopy) //[1, 2, 3, 4]
     ```
     
-    ---
-    
 
 ## The Rest Parameter
 
@@ -114,7 +112,7 @@ console.log(others) // [3, 4, 5, 6, 7, 8]
 
 Here's what happens behind the scenes -
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676200334372/1516cc7d-7bdb-4d7c-ac7b-77be6fdeb4dc.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676200334372/1516cc7d-7bdb-4d7c-ac7b-77be6fdeb4dc.png align="center")
 
 > Both Rest and Spread use the same syntax: the three dots (`...` )
 > 
