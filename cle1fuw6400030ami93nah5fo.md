@@ -73,26 +73,26 @@ console.log(allNums) //    [[1, 3, 5], [2, 4, 6]]
 3. Create copies
     
     The spread syntax is a great way to create shallow copies of an iterable. Because of the way in which JavaScript handles different value types, simply assigning an array or object to a new value doesn't create a true copy \[More on this [here](https://abinjohn.in/object-mutability)\]. The spread syntax helps to spread the original array contents and put them in a new array.
-
-```javascript
-    const baseArray = [1, 2, 3, 4];
     
-    // Simply assigning baseArray to sameReference doesn't create a copy.
-    // They both point to the same location in memory.
-    // Any change made to either will reflect in the other.
-    const sameReference = baseArray;
-    
-    
-    // shallowCopy contains the same items as baseArray, 
-    // but they don't point to the same memory location.
-    // Any change made to either will not reflect in the other.
-    const shallowCopy = [ ...baseArray ]
-    
-    baseArray.push(100)
-    
-    console.log(baseArray) //[1, 2, 3, 4, 100]
-    console.log(sameReference) //[1, 2, 3, 4, 100]
-    console.log(shallowCopy) //[1, 2, 3, 4]
+    ```javascript
+        const baseArray = [1, 2, 3, 4];
+        
+        // Simply assigning baseArray to sameReference doesn't create a copy.
+        // They both point to the same location in memory.
+        // Any change made to either will reflect in the other.
+        const sameReference = baseArray;
+        
+        
+        // shallowCopy contains the same items as baseArray, 
+        // but they don't point to the same memory location.
+        // Any change made to either will not reflect in the other.
+        const shallowCopy = [ ...baseArray ]
+        
+        baseArray.push(100)
+        
+        console.log(baseArray) //[1, 2, 3, 4, 100]
+        console.log(sameReference) //[1, 2, 3, 4, 100]
+        console.log(shallowCopy) //[1, 2, 3, 4]
     ```
     
 
