@@ -2,7 +2,7 @@
 
 > NOTE:
 > 
-> This post is not being rendered correctly on Hashnode for some reason. For a better reading experience, please head over to [this Notion page](https://abinjohn.notion.site/Introduction-to-JavaScript-Spread-Syntax-Rest-Parameter-a19f644638b341b59bdf9394656b0680)
+> This post is not being rendered correctly on Hashnode for some reason. For a better reading experience, please head over to this [Dev.to](https://dev.to/abin_john/introduction-to-javascript-spread-syntax-rest-parameter-4e6a) post or [this Notion page](https://abinjohn.notion.site/Introduction-to-JavaScript-Spread-Syntax-Rest-Parameter-a19f644638b341b59bdf9394656b0680)
 
 The Spread syntax and Rest parameter are two powerful concepts that were introduced to the JavaScript language with ES6 in 2015. At first glance, the two look similar, and developers who are just discovering the three dots often have a hard time figuring them out (I know I definitely did!)
 
@@ -73,8 +73,8 @@ console.log(allNums) //    [[1, 3, 5], [2, 4, 6]]
 3. Create copies
     
     The spread syntax is a great way to create shallow copies of an iterable. Because of the way in which JavaScript handles different value types, simply assigning an array or object to a new value doesn't create a true copy \[More on this [here](https://abinjohn.in/object-mutability)\]. The spread syntax helps to spread the original array contents and put them in a new array.
-    
-    ```javascript
+
+```javascript
     const baseArray = [1, 2, 3, 4];
     
     // Simply assigning baseArray to sameReference doesn't create a copy.
