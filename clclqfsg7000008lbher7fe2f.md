@@ -103,7 +103,7 @@ Here's how we do that.
     <script src="index.js" type="module"></script>
     ```
     
-5. Use the imported items just like you would in a regular script.
+5. Use the imported item just like you would in a regular script.
     
     ```javascript
     // index.js
@@ -148,7 +148,7 @@ export function cat() { console.log('meow meow') };
 
 export function dog() { console.log('bow bow') };
 
-export default pig() { console.log('oink oink') };
+export default function pig() { console.log('oink oink') };
 ```
 
 ```javascript
@@ -157,7 +157,7 @@ export default pig() { console.log('oink oink') };
 import Piggie, { cat, dog } from './animals.js'
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676627541237/94ae4ba2-7261-48de-ba94-f243fe3617d8.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676637811553/674225fb-7eac-48a7-b3a6-035bc3ef84f1.png align="center")
 
 > Having both default and named exports in a single file is possible in JavaScript as long as there is only one default export, but to avoid potential confusion, mixing them is not preferred by many.
 
