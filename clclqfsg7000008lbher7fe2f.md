@@ -135,12 +135,7 @@ export { item1, item2, item3 }
 
 How an item is imported depends on how it is exported. The import statements for Default and named exports work a bit differently and using an incorrect import method will throw errors.
 
-|  | Export Statement | Import Statement |
-| --- | --- | --- |
-| **Named Export** | export function cat() { ... }  
-//  
-export function dog() { ... } | import { cat, dog } from './animals.js' |
-| **Default Export** | export default function cat() { ... } | import meow from './cat.js' |
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676627684185/1934d67a-b833-4997-9d23-9c13b0a41b8c.png align="center")
 
 When importing named exports, the item names must match the exported item names and should be enclosed in curly braces {}.
 
