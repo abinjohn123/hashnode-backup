@@ -51,11 +51,9 @@ convertCurrency(100, 'INR', 'USD') // 1.21
 
 There are two things to note here -
 
-1. The logic behind the conversion is not important on the grand scale of the application's functionality. We just need to get the converted value.
+1. The conversion is being handled by a third-party API whose design and implementation are not in our control. The API developers could change the URL, how the queries are sent etc, and that would break the function.
     
-2. The conversion is being handled by a third-party API whose design and implementation are not in our control. The API developers could change the URL, how the queries are sent etc, and that would break the function.
-    
-3. This function has the potential to be reused in future projects where currency handling is required.
+2. This function has the potential to be reused in future projects where currency handling is required.
     
 
 Because of these reasons, it is a good idea to move this piece of code into a separate, independent file. The advantages are
@@ -64,7 +62,7 @@ Because of these reasons, it is a good idea to move this piece of code into a se
     
 * Makes debugging easier if the API breaks as the code is now in its own file.
     
-* Introduces the possibility of code-reuse.
+* Introduces the possibility of code-reuse as the script can now be used in other areas where currency conversion is required.
     
 
 Here's how we do that.
@@ -133,11 +131,11 @@ export { item1, item2, item3 }
 
 ## A closer look into imports
 
-How an item is imported depends on how it is exported. The import statements for Default and named exports work a bit differently and using an incorrect import method will throw errors.
+How an item is imported depends on how it is exported. The import statements for default and named exports work a bit differently and using an incorrect import method will throw errors.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676627684185/1934d67a-b833-4997-9d23-9c13b0a41b8c.png align="center")
 
-When importing named exports, the item names must match the exported item names and should be enclosed in curly braces {}.
+When importing named exports, the item names must match the exported item names and should be enclosed in curly braces { }.
 
 With default exports, since there is only one default export per file, wrapping the item in curly braces is not required. We can also give any name for the imported value. That's why `import meow from './cat.js'` will work even though the item exported is `cat()`
 
