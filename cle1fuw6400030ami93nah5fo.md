@@ -82,7 +82,6 @@ console.log(allNums) //    [[1, 3, 5], [2, 4, 6]]
         // Any change made to either will reflect in the other.
         const sameReference = baseArray;
         
-        
         // shallowCopy contains the same items as baseArray, 
         // but they don't point to the same memory location.
         // Any change made to either will not reflect in the other.
