@@ -1,9 +1,5 @@
 # Introduction to JavaScript Spread Syntax & Rest Parameter
 
-> NOTE:
-> 
-> This post is not being rendered correctly on Hashnode for some reason. For a better reading experience, please head over to this [Dev.to](https://dev.to/abin_john/introduction-to-javascript-spread-syntax-rest-parameter-4e6a) post or [this Notion page](https://abinjohn.notion.site/Introduction-to-JavaScript-Spread-Syntax-Rest-Parameter-a19f644638b341b59bdf9394656b0680)
-
 The Spread syntax and Rest parameter are two powerful concepts that were introduced to the JavaScript language with ES6 in 2015. At first glance, the two look similar, and developers who are just discovering the three dots often have a hard time figuring them out (I know I definitely did!)
 
 Whenever we see `...` in a code snippet, it is either spread or rest. So, what's the difference? and how are they useful?
